@@ -687,7 +687,7 @@ Ketik /start untuk restart bot
             filters.PHOTO, self.message_handler
         ))
         application.add_handler(MessageHandler(
-            filters.STICKER, self.message_handler
+            filters.Sticker, self.message_handler
         ))
         application.add_handler(MessageHandler(
             filters.VOICE, self.message_handler
