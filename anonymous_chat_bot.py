@@ -17,8 +17,8 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Bot configuration
-BOT_TOKEN = "YOUR_BOT_TOKEN_HERE"  # Ganti dengan token bot Anda
-ADMIN_ID = 12345678  # Ganti dengan user ID admin
+BOT_TOKEN = "https://api.telegram.org/bot8072908504:AAFehx8Lnrd84pOdKqb5E5gVpec351BEBwM/getMe"  # Ganti dengan token bot Anda
+ADMIN_ID = 7442222257  # Ganti dengan user ID admin
 
 class AnonymousChatBot:
     def __init__(self):
