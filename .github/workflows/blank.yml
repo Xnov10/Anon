@@ -13,4 +13,4 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
       - name: Run bot
-        run: python nama_script_bot.py
+        run: python anonymous_chat_bot.py
